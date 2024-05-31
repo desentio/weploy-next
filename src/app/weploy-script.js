@@ -3,7 +3,7 @@
 export default function WeployScript() {
   return (
     <script src="https://unpkg.com/weploy-translate/dist/weploy-translate.js" 
-    data-weploy-key="YOUR_API_KEY"
+    data-weploy-key={process.env.KEY}
     data-use-browser-language="true" 
     data-original-language="fr"
     data-allowed-languages="en, es, it, pt, sw, de, zh, el, ja, ru" 

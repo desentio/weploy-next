@@ -1,0 +1,12 @@
+"use client";
+
+export default function WeployScript() {
+  return (
+    <script src="https://unpkg.com/weploy-translate/dist/weploy-translate.js" 
+    data-weploy-key="YOUR_API_KEY"
+    data-use-browser-language="true" 
+    data-original-language="fr"
+    data-allowed-languages="en, es, it, pt, sw, de, zh, el, ja, ru" 
+    data-exclude-classes=""></script>
+  )
+}
